@@ -325,7 +325,7 @@ class Cassandra
 
         if ($result)
             return $result;
-        else if ($lastExecption)
+        else if ($lastException)
             throw $lastException;
         else
             return false;
